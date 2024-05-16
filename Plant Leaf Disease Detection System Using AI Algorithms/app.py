@@ -8,7 +8,7 @@ import tensorflow as tf
 import os
 
 # Load the trained model
-model = tf.keras.models.load_model('new_best_model.h5')
+model = tf.keras.models.load_model('leaf_disease_model.h5')
 
 # Define class names and disease descriptions
 class_names = {
